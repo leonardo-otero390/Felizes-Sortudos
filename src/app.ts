@@ -1,4 +1,4 @@
-class LuckyHappyNumber {
+export default class LuckyHappyNumber {
   number: Number;
 
   constructor(number: Number) {
@@ -51,12 +51,4 @@ class LuckyHappyNumber {
 
     return `Número ${lucky} e ${happy}.`;
   }
-}
-
-export default function app(number: Number): String {
-  const result = new LuckyHappyNumber(number);
-  const happy = result.isHappy() ? 'Feliz' : 'Não-Feliz';
-  const lucky = result.isLucky() ? 'Sortudo' : 'Não-Sortudo';
-
-  return `Número ${lucky} e ${happy}.`;
 }
