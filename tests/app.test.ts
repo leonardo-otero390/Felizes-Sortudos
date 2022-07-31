@@ -28,6 +28,6 @@ describe('App test', () => {
 
   it('should return Não-Sortudo e Feliz', () => {
     const response = app(100);
-    expect(response).toEqual('Número Sortudo e Feliz.');
+    expect(response).toEqual('Número Não-Sortudo e Feliz.');
   });
 });
