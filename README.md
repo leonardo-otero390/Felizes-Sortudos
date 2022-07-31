@@ -21,7 +21,7 @@ Também foram implementados os casos de testes para auxiliar no desenvolvimento.
 ### [npm](https://www.npmjs.com/)
 
 <details>
-    <summary>install npm</summary>
+    <summary>instale npm</summary>
 
 ```bash
 wget -qO- <https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh> | bash
@@ -40,7 +40,7 @@ npm -v
 
 </details>
 
-## How to run
+## Como rodar
 
 1. Clone esse repositório
 2. Instale as dependencias
