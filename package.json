@@ -7,7 +7,7 @@
     "build": "npx tsc --outDir dist",
     "lint": "eslint . --ext .ts",
     "start": "node dist/src/app.js",
-    "start:dev": "NODE_ENV=dev npx nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"ts-node src/server.ts\"",
+    "start:dev": "npx nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"ts-node src/app.ts\"",
     "test": "npx jest --watchAll",
     "postinstall": "npm run build"
   },
