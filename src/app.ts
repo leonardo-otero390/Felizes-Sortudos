@@ -1,4 +1,3 @@
-
-export default function app(){
-    return "Hello World";
+export default function app(number: Number): String {
+  return 'Hello World';
 }
